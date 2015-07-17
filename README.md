@@ -10,7 +10,9 @@ This Git describes how to package python code as an excutable (EXE) for dristubu
 
 [Download](http://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/)
 
+#### Installation
 
+todo
 
 ### UPX (optional)
 [Home](http://upx.sourceforge.net/)
@@ -19,13 +21,13 @@ This Git describes how to package python code as an excutable (EXE) for dristubu
 
 This utility compresses the final exe to about 60% the original size.
 
-This is a standalone excutable and is run with the command: "upx.exe yourProgram.exe"
+This is a standalone excutable and is run with the command: `upx.exe yourProgram.exe`
 
 
 ## Files
 
 ### setup.py
-Configuration for py2exe. It includes the name of the main program that is entered at the top. All other files will be caught by scraping all imports recursivly.
+Configuration for py2exe. It includes the name of the main program that is entered at the top. All other files will be caught by scraping all imports recursivly. This file need to be placed in the same directory as the main program file.
 
 ### setup.bat
 For quicker compiling it is best to make this file to chain all the commands so an exe can be created with just a click.
